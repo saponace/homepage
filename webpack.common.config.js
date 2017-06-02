@@ -35,6 +35,7 @@ module.exports = {
             jQuery: 'jquery',
             "window.jQuery": 'jquery',
             "windows.jQuery": 'jquery',
+            Tether: 'tether'
         })
     ],
     resolve: {
@@ -47,7 +48,7 @@ module.exports = {
             "waypoints": path.resolve(
                 __dirname,
                 "node_modules/waypoints/lib/jquery.waypoints.min"
-            ),
+            )
         }
     }
 };
